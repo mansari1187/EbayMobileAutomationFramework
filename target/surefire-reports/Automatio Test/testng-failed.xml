@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Automatio Test]">
+  <test name="Smoke Testcases(failed)">
+    <classes>
+      <class name="AndroidAPP.browser">
+        <methods>
+          <include name="browse"/>
+        </methods>
+      </class> <!-- AndroidAPP.browser -->
+      <class name="AndroidAPP.AppTest">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- AndroidAPP.AppTest -->
+    </classes>
+  </test> <!-- Smoke Testcases(failed) -->
+</suite> <!-- Failed suite [Automatio Test] -->

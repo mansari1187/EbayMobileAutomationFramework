@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [AndroidAPP.AppTest]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="AndroidAPP.AppTest">
+        <methods>
+          <include name="Test2"/>
+          <include name="testdata"/>
+          <include name="Desiredcapablities"/>
+        </methods>
+      </class> <!-- AndroidAPP.AppTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [AndroidAPP.AppTest] -->
