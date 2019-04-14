@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name= "Automatio Ebay Test">
+    <test name="Unit Testcases">
+    <packages>
+       <package name="AndroidAPP" />
+       
+     </packages>
+    
+    </test>
+    
+</suite>
