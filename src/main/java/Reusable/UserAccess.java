@@ -1,5 +1,7 @@
 package Reusable;
 
+import java.util.Set;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
@@ -71,5 +73,30 @@ public class UserAccess extends BaseClass {
 		driver.findElementsByAndroidUIAutomator(scrollPoint);
 	}
 	
+	/**
+	 * Get Application Views - how many  Native and Web view Available 
+	 */
 	
+	public Set<String> getApplicationsView(AndroidDriver<AndroidElement> driver)
+	{
+		Set<String> s= driver.getContextHandles();
+		
+		for(String handles : s)
+		{
+			System.out.println(handles);
+		}
+		return s;
+		
+	}
+	
+	/**
+	 * Switch to Native to web or web to native Function
+	 * @param driver
+	 * @param Switch_View_Name
+	 */
+	
+	public void switchToNativeandWeb(AndroidDriver<AndroidElement> driver , String Switch_View_Name)
+	{
+		driver.context(Switch_View_Name);
+	}
 }
